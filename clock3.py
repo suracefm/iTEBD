@@ -4,7 +4,7 @@ from trotter import *
 
 dim = 3
 for g in np.linspace(-1,0, 11):
-    for theta in [np.linspace(0, np.pi/3, 11)[0]]:
+    for theta in np.linspace(0, np.pi/3, 11):
         print(g, theta)
         g = float("{0:.5f}".format(g))
         J = float("{0:.5f}".format(-1-g)); theta = float("{0:.5f}".format(theta)); phi = float("{0:.5f}".format(0));
