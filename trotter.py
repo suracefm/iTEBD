@@ -68,4 +68,3 @@ def iTEDB(dim, chi, GammaA, LambdaA, GammaB, LambdaB, U):
         np.reshape(Z[:chi], (chi, dim, chi)))
 
     return new_GammaA, new_LambdaA, new_GammaB, dw, norm_sq
-
